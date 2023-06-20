@@ -1,6 +1,6 @@
 <h1>VITE-REACT-TAILWINDCSS SETUP</h1>
 
-<h3>Setting up a Vite.js project with React-template and TailwindCSS</h3><br>
+<h3>Setting up a Vite.js project with React-template and TailwindCSS</h3>
 
 1. npm create vite@latest myprojectname -- --template react<br>
 2. cd myprojectname
