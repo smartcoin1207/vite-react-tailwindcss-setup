@@ -4,8 +4,8 @@
 
 1. npm create vite@latest myprojectname -- --template react<br>
 2. cd myprojectname
-3. npm install -D tailwindcss postcss autoprefixer<br><br>
+3. npm install -D tailwindcss postcss autoprefixer
 
-<h3>Generate the Configuration Files</h3><br><br>
+<h3>Generate the Configuration Files</h3>
 
 4. npx tailwindcss init -p
