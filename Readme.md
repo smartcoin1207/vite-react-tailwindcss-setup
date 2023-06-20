@@ -9,3 +9,6 @@
 <h3>Generate the Configuration Files</h3>
 
 4. npx tailwindcss init -p
+5. Add "./index.html" and "./src/**/*.{js,ts,jsx,tsx}" to the content array in your tailwind.config.js file
+6. Add Add Tailwind Directives, @tailwind base,  @tailwind components and @tailwind utilities to Your index.css file
+7. Run your Vite server with the npm run dev command
