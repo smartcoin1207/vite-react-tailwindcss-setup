@@ -11,7 +11,7 @@ Run the following commends in your terminal:<br>
 3. npm install -D tailwindcss postcss autoprefixer
 4. npx tailwindcss init -p (this generates the Configuration Files)<br>
 
-configure the paths to all of your HTML templates:
+configure the paths to all of your HTML templates:<br>
 5. Add "./index.html" and "./src/**/*.{js,ts,jsx,tsx}" to the content array in your tailwind.config.js file<br>
 
 For adding special functionality and customization:<br>
