@@ -2,7 +2,7 @@
 
 <h3>Setting up a Vite.js project with React-template and TailwindCSS</h3>
 
-Tiny project to become familiar with TailwindCSS<br><br>
+* Tiny project to become familiar with TailwindCSS * <br>
 
 1. npm create vite@latest myprojectname -- --template react<br>
 2. cd myprojectname
