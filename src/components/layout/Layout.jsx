@@ -3,13 +3,13 @@ import Navbar from '../Navbar'
 import HeaderWrapper from '../HeaderWrapper'
 import { Outlet } from 'react-router-dom'
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
-    <div className="bg-gray-100">
+    <div className="grid md:grid-cols-5">
       <Navbar />
       <HeaderWrapper />
       <main>{children}</main>
-    <Outlet />
+      <Outlet />
     </div>
   )
 }

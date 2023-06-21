@@ -2,7 +2,7 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div>
+    <div className="bg-gray-100 md:col-span-4">
       Login
     </div>
   )
