@@ -18,12 +18,12 @@ const Navbar = () => {
 
 return (
         <nav className="md:col-span-1">
-            <div className="flex justify-between items-center">
-                <h1 className="font-bold uppercase p-4 border-b border-gray-100 hover:text-gray-700">
-                    <Link to="/">Food Freak</Link>
+        <div className="flex justify-between items-center border-b border-gray-300  bg-black">
+                <h1 className="w-full font-bold uppercase p-4">
+                    <Link to="/" className="text-2xl text-white md:text-base lg:text-2xl bg-black">Food Freak</Link>
                 </h1>
                 <div className="px-4 cursor-pointer md:hidden" onClick={openMenu}>
-                    <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                    <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="white">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                     </svg>
                 </div>

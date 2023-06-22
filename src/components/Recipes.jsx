@@ -15,7 +15,7 @@ const Recipes = () => {
 
         {/* cards go here */}
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={stew} alt="stew" className="w-full h-32 sm:h-48 object-cover"/>
           <div className="m-4">
             <span className="font-bold">5 bean chili stew</span>
@@ -29,7 +29,7 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={noodles} alt="noodles" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Veg Noodles</span>
@@ -43,7 +43,7 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={curry} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Tofu Curry</span>
@@ -58,7 +58,7 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={frynoodles} alt="stew" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Fry Noodles</span>
@@ -72,7 +72,7 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={quinoabowl} alt="noodles" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Quinoa Bowl</span>
@@ -86,7 +86,7 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={pickledansjovis} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Pickled Ansjovis</span>
@@ -107,7 +107,7 @@ const Recipes = () => {
 
      
       <div className="mt-8 grid lg:grid-cols-3 gap-10">
-        <div className="card hover:shadow-lg">
+        <div className="card shadow transition duration-500">
           <img src={pizza} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
           <div className="m-4">
             <span className="font-bold">Pizza Napolitana</span>
