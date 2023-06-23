@@ -15,6 +15,13 @@ export default {
       },
       fontFamily: {
         body: ['Nunito']
+      },
+      screens: {
+        monsterbig: '769px',
+        monstersmall: '1118px',
+        // md: '900px',
+        middle: '1200px',
+        small: '650px'
       }
     },
   },

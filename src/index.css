@@ -8,7 +8,23 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 font-family: 'Nunito';
+}
 
+*::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+
+*::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px black;  */
+  border-radius: 10px;
+  background-color: black; 
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  box-shadow: inset 0 0 10px black;
+  border-radius: 14px;
 }
 
 .card {
@@ -27,9 +43,10 @@ font-family: 'Nunito';
 @apply px-4 flex justify-end border-r-4  border-primary
 }
 
-.menuBorderWhite {
-@apply px-4 flex justify-end border-r-4  border-white
+.menuBorderBlack {
+@apply px-4 flex justify-end border-r-4  border-black
 }
+
 
 .shadow {
    box-shadow: 0px 0px 4px rgb(0,0,0, 0.4);

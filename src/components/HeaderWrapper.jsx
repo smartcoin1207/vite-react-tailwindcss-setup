@@ -5,7 +5,7 @@ import Recipes from './Recipes';
 
 const HeaderWrapper = () => {
   return (
-    <div className="px-16 py-6 bg-gray-100 md:col-span-4">
+    <div className="bg-no-repeat bg-right-top bg-cover bg-[url('./assets/images/headerbg.jpg')] px-16 py-6 md:col-span-4">
       <LoginSignup />
       <Header />
     </div>

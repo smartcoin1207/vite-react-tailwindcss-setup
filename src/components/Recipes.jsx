@@ -6,21 +6,28 @@ import frynoodles from '../assets/images/frynoodles.jpg'
 import quinoabowl from '../assets/images/quinoabowl.jpg'
 import pickledansjovis from '../assets/images/pickledansjovis.jpg'
 import pizza from '../assets/images/pizza.jpg'
+import pepersmild from '../assets/images/pepersmild.png'
+import pepersmildx from '../assets/images/pepersmildx.png'
+import pepershot from '../assets/images/pepershot.png'
+import pepershotx from '../assets/images/pepershotx.png'
+import pepershotxx from '../assets/images/pepershotxx.png'
 
 const Recipes = () => {
   return (
-    <div className="px-16 bg-gray-100 md:col-span-4">
-      <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
-      <div className="mt-8 grid lg:grid-cols-3 gap-10">
+    <div className="px-16 md:col-span-4">
+      <h4 className="text-gray-400 font-bold mt-10 pb-2 border-b border-gray-600 [letter-spacing:2px]">Latest Recipes:</h4>
+      <div className="mt-8 grid grid-cols-1 small:grid-cols-2 gap-10 md:grid-cols-2 middle:grid-cols-3">
 
         {/* cards go here */}
 
-        <div className="card shadow transition duration-500">
-          <img src={stew} alt="stew" className="w-full h-32 sm:h-48 object-cover"/>
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={stew} alt="stew" className="w-full h-48 object-cover"/>
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">5 bean chili stew</span>
-            <span className="block text-gray-500 text-sm">Recipe by Gabriella</span>
+            <span className="block text-gray-600 text-sm">Recipe by Gabriella</span>
+            
           </div>
+          <img src={pepersmild} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4"/>
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -29,12 +36,13 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card shadow transition duration-500">
-          <img src={noodles} alt="noodles" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={noodles} alt="noodles" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Veg Noodles</span>
-            <span className="block text-gray-500 text-sm">Recipe by Mario</span>
+            <span className="block text-gray-600 text-sm">Recipe by Mario</span>
           </div>
+          <img src={pepersmildx} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -43,12 +51,13 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card shadow transition duration-500">
-          <img src={curry} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={curry} alt="curry" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Tofu Curry</span>
-            <span className="block text-gray-500 text-sm">Recipe by Luna</span>
+            <span className="block text-gray-600 text-sm">Recipe by Luna</span>
           </div>
+          <img src={pepershotxx} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -58,12 +67,13 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card shadow transition duration-500">
-          <img src={frynoodles} alt="stew" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={frynoodles} alt="stew" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Fry Noodles</span>
-            <span className="block text-gray-500 text-sm">Recipe by Marco</span>
+            <span className="block text-gray-600 text-sm">Recipe by Marco</span>
           </div>
+          <img src={pepershot} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -72,12 +82,13 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card shadow transition duration-500">
-          <img src={quinoabowl} alt="noodles" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={quinoabowl} alt="noodles" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Quinoa Bowl</span>
-            <span className="block text-gray-500 text-sm">Recipe by Franco</span>
+            <span className="block text-gray-600 text-sm">Recipe by Franco</span>
           </div>
+          <img src={pepershotx} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -86,12 +97,13 @@ const Recipes = () => {
           </div>
         </div>
 
-        <div className="card shadow transition duration-500">
-          <img src={pickledansjovis} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={pickledansjovis} alt="curry" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Pickled Ansjovis</span>
-            <span className="block text-gray-500 text-sm">Recipe by Paulo</span>
+            <span className="block text-gray-600 text-sm">Recipe by Paulo</span>
           </div>
+          <img src={pepersmildx} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -103,16 +115,17 @@ const Recipes = () => {
 
       </div>
 
-      <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4>
+      <h4 className="text-gray-400 font-bold mt-12 pb-2 border-b border-gray-600 [letter-spacing:2px]">Most Popular:</h4>
 
      
       <div className="mt-8 grid lg:grid-cols-3 gap-10">
-        <div className="card shadow transition duration-500">
-          <img src={pizza} alt="curry" className="w-full h-32 sm:h-48 object-cover" />
-          <div className="m-4">
+        <div className="card shadow transition duration-500 flex items-start flex-col border-gray-400">
+          <img src={pizza} alt="curry" className="w-full h-48 object-cover" />
+          <div className="w-full h-20 bg-gradient-to-b from-white to-gray-400 flex items-start justify-center flex-col pl-4">
             <span className="font-bold">Pizza Napolitana</span>
-            <span className="block text-gray-500 text-sm">Recipe by Francesca</span>
+            <span className="block text-gray-600 text-sm">Recipe by Francesca</span>
           </div>
+          <img src={pepersmildx} alt="" className="w-6 absolute bottom-0 right-0 mb-6 mr-4" />
           <div className="badge">
             <svg className="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -124,8 +137,8 @@ const Recipes = () => {
       </div>
       
 
-      <div className="flex justify-center mb-10 mt-10">
-        <div className="btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:opacity-50 transition ease-out duration-300">Load more</div>
+      <div className="flex justify-center mb-10 mt-20">
+        <div className="bg-gray-600 text-white text-sm rounded-full py-2 px-4 hover:shadow-inner transform hover:scale-125 hover:opacity-50 transition ease-out duration-300">Load more</div>
       </div>
     </div>
   )

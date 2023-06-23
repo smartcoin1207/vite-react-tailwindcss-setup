@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom'
 
 const Layout = ({ children }) => {
   return (
-    <div className="grid md:grid-cols-5">
+    <div className="bg-black grid md:grid-cols-5">
       <Navbar />
       <HeaderWrapper />
       <main>{children}</main>
