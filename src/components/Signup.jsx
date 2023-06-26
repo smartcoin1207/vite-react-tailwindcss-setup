@@ -45,7 +45,7 @@ setUser({
 
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Firstname:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.firstName}
               name="firstName"
@@ -55,7 +55,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Lastname:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.lastName}
               name="lastName"
@@ -65,7 +65,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Address:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.address}
               name="address"
@@ -75,7 +75,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">City:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.city}
               name="city"
@@ -85,7 +85,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Country:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.country}
               name="country"
@@ -95,7 +95,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Email:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="text"
               defaultValue={user.email}
               name="email"
@@ -105,7 +105,7 @@ setUser({
           </label>
           <label className="w-80 mb-2 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Password:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="password"
               defaultValue={user.password}
               name="password"
@@ -115,7 +115,7 @@ setUser({
           </label>
           <label className="mb-8 w-80 flex justify-between border-b border-slate-500">
             <span className="w-20 mr-2 flex items-center text-white">Repeat:</span>
-            <input className="w-60 h-8 bg-black focus:outline-none"
+            <input className="w-60 h-8 bg-black focus:outline-none placeholder-gray-600"
               type="password"
               defaultValue={user.password2}
               name="password2"

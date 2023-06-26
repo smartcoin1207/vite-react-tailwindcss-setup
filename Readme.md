@@ -23,7 +23,7 @@ Start your server:<br>
 View app in your browser:<br>
 8. Hold the ctrl key and click on the link at Local<br><br>
 
-![tailwind](https://github.com/Noud63/vite-react-tailwind-setup/assets/38325801/28a2cb29-4fd9-426c-9b8b-04656390df41)<br><br>
+![tailwind](https://github.com/Noud63/vite-react-tailwind-setup/assets/38325801/32e4d565-812c-4753-b3b9-6e555310f463)<br><br>
 ![tailwind2](https://github.com/Noud63/vite-react-tailwind-setup/assets/38325801/c8e1fdab-604d-4a66-bfa3-b490d2364626)<br><br>
 ![tailwindmobileduo](https://github.com/Noud63/vite-react-tailwind-setup/assets/38325801/68cf99f0-b546-4792-a625-034d3b08c031)<br><br>
 
